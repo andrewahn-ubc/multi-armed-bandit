@@ -5,7 +5,7 @@ their performance on both a stationary and non-stationary 10-armed bandit proble
 
 <br>
 
-## Set-Up
+## Set-Up (skip if not interested)
 For the stationary bandit problem, the true values were sampled from the standard normal. The rewards came from a normal distribution with the mean set to the true value and 
 standard deviation set to 1. 
 
