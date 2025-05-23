@@ -40,6 +40,8 @@ at first because it discovers the optimal actions earlier, but the 0.01-greedy m
 ![image](https://github.com/user-attachments/assets/326d59d8-42ef-4f40-ab3c-c7e759bf54c5)<br>
 *Figure 3: Comparing different epsilon-greedy methods to see how much exploration is optimal (for this particular scenario).*
 
+<br>
+
 ### 0-initialization vs. Optimal Initial Values
 Set-up details: For optimal initial values, I initialized value estimates at +5, and tested the two methods on the stationary problem (this is a requirement for the optimal initial values method). The 0-init method uses epislon=0.1, whereas the optimal initial value method is purely greedy (epsilon=0).
 
