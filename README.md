@@ -1,5 +1,5 @@
 # Multi-Armed Bandit Problem
-This project implements some of the reinforcement learning (RL) methods covered in Sutton and Barto's [Reinforcement Learning: An Introduction](http://www.incompleteideas.net/book/RLbook2020.pdf) for the multi-armed bandit problem, which is a special RL problem that only contains 1 state ([more info](https://www.geeksforgeeks.org/multi-armed-bandit-problem-in-reinforcement-learning/)). The main.py file contains a series of experiments comparing various action-value methods: 
+This project implements some of the reinforcement learning (RL) methods covered in Sutton and Barto's [Reinforcement Learning: An Introduction](http://www.incompleteideas.net/book/RLbook2020.pdf) for the multi-armed bandit problem, which is a special RL problem that only contains 1 state ([more info](https://www.geeksforgeeks.org/multi-armed-bandit-problem-in-reinforcement-learning/)). main.py contains a series of experiments comparing various action-value methods: 
 - the sample average method vs. the exponential recency-weighted average method,
 - the 0.1-greedy method vs, 0.01-greedy method, and
 - 0-initialization vs. the optimal initial values method.
